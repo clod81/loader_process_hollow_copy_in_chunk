@@ -1,5 +1,7 @@
 # C# loader that copies a chunk at the time of the shellcode in memory of a suspended process, rather that all at once
 
+Based on the Process Hollowing technique
+
 Uses p/invoke to copy an encoded shellcode in memory, 100 bytes (chunks) at the time, rather than all at once
 
 Yes the code is shit, but meh so what - not like I have the whole day to write good pocs
